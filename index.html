@@ -182,7 +182,7 @@
                 <br>
                 <hr class="h-0.5 w-20  bg-orange-400 mx-auto border-0 dark:bg-gray-700">
             </div>
-            <div class="flex md:flex-col lg:flex-row justify-between items-center mt-20">
+            <div class="flex flex-col md:flex-col lg:flex-row justify-between items-center mt-20">
                 <div>
                     <img src="images/others/feature-bike.png" alt="">
                 </div>
@@ -243,7 +243,7 @@
          <!-- happy client section -->
           <section>
             <h1 class="text-bold mb-10 text-center text-6xl">Happy <span class="text-bike-primary">Clients says</span></h1>
-            <div class="flex flex-col md:flex-row-2 lg:flex-row justify-around items-center">
+            <div class="flex flex-col lg:flex-row justify-around items-center">
               
               <!-- card-1 -->
               <div class="space-y-5 border rounded-sm p-10 mb-8">
@@ -252,7 +252,7 @@
                   many more days you need <br>
                   to work to reach your financial <br>
                   goal for the month and year.</p>
-                  <div class="rating flex justify-center items-center ">
+                  <div class="rating flex justify-center items-center gap-2">
                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                     <input
                       type="radio"
@@ -273,7 +273,7 @@
                   many more days you need <br>
                   to work to reach your financial <br>
                   goal for the month and year.</p>
-                  <div class="rating flex justify-center items-center">
+                  <div class="rating flex justify-center items-center gap-2">
                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                     <input
                       type="radio"
@@ -294,7 +294,7 @@
                   many more days you need <br>
                   to work to reach your financial <br>
                   goal for the month and year.</p>
-                  <div class="rating flex justify-center items-center">
+                  <div class="rating flex justify-center items-center gap-2">
                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                     <input
                       type="radio"
@@ -365,15 +365,23 @@
     <footer class="footer bg-black text-neutral-content p-10">
         <aside class="mx-auto">
           
-          <p>
-            ACME Industries Ltd.
-            <br />
-            Providing reliable tech since 1992
-          </p>
+          <div class="flex gap-4 mt-10 text-xl">
+            <p>Download Now </p>
+            <p>License</p>
+          </div>
+          <div class="flex gap-5 text-xl">
+            <p>About</p>
+            <p>Features</p>
+            <p>Pricing</p>
+            <p>Careers</p>
+            <p>Help</p>
+            <p>Privacy Policy</p>
+          </div>
+          <p class="text-xl text-gray-400">© 2020 bike. All rights reserved</p>
         </aside>
         <nav>
           <h6 class="footer-title">Get The App</h6>
-          <div class="grid grid-cols-1 gap-4">
+          <div class="grid grid-cols-1 gap-5">
             <a>
               <img class="w-36" src="images/others/android.png" alt="">
             </a>
